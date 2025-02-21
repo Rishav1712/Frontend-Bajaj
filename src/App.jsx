@@ -32,7 +32,7 @@ const DataProcessor = () => {
   const [result, setResult] = useState(null);
   const [options, setOptions] = useState([]);
   
-  const apiEndpoint = 'http://localhost:3000/bfhl/bajaj';
+  const apiEndpoint = 'https://backend-bajaj-9v2h.onrender.com/bfhl';
   
   const handleFormSubmit = async (e) => {
     e.preventDefault();
